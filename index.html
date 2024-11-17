@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="terminal-prefix">> SYSTEM.DESIGN.GROWTH v1.0</div>
+        <h1>PERSONAL GROWTH MONITOR</h1>
+        <p>TRACKING DESIGN EVOLUTION... <span class="cursor">█</span></p>
+    </header>
+
+    <div class="timeline">
+        <div class="milestone left" onmouseenter="updateProgress(this, 20)">
+            <div class="terminal-prefix">> INITIALIZING_PHASE_01</div>
+            <h3>First steps into CIID. </h3>
+            <p>Everything feels overwhelming and new.</p>
+            <span class="emotion">EMOTIONAL_STATUS: Uncertain but excited</span>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="milestone right" onmouseenter="updateProgress(this, 40)">
+            <div class="terminal-prefix">> PROCESSING_PHASE_02</div>
+            <h3>FINDING MY WAY</h3>
+            <p>Learning basic design principles. Starting to understand the importance of process over perfection.</p>
+            <span class="emotion">EMOTIONAL_STATUS: Challenged but growing</span>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="milestone left" onmouseenter="updateProgress(this, 60)">
+            <div class="terminal-prefix">> EXECUTING_PHASE_03</div>
+            <h3>CONFIDENCE PROTOCOLS</h3>
+            <p>First project successfully compiled. Debug mode activated.</p>
+            <span class="emotion">EMOTIONAL_STATUS: More confident, less afraid of mistakes</span>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="milestone right" onmouseenter="updateProgress(this, 80)">
+            <div class="terminal-prefix">> UPGRADING_PHASE_04</div>
+            <h3>PROCESS INTEGRATION</h3>
+            <p>Iterations and error handling successfully implemented.</p>
+            <span class="emotion">EMOTIONAL_STATUS: Embracing uncertainty as opportunity</span>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="milestone left" onmouseenter="updateProgress(this, 100)">
+            <div class="terminal-prefix">> OPTIMIZING_PHASE_05</div>
+            <h3>TRUSTING THE PROCESS</h3>
+            <p>Confidence in approaching new challenges. Understanding that growth is a continuous journey..</p>
+            <span class="emotion">EMOTIONAL_STATUS: Empowered and ready for more</span>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
